@@ -43,10 +43,36 @@ str_replace('a', '') zamień w każdym stringu
 str_sub(x, 3, 3) Wybierz trzecią literę
 str_sub(x, 2, -2)
 ```
+#### Pliki
+```
+list.files() lista plików w folderze
+setwd('')
 
+
+
+```
 #### Shiny
 ```każde render* w serverze odpowiada za jeden *output w ui
 do keszowania trzeba użyć reactive({}) i później używać re()
 Do przycisków observeEvent(input$guzik, {wykonaj})
 Żeby nie ładowało się za każdą zmianą parametrów tylko po naciśnięciu przycisku użyć isolate
 ```
+
+#### Linux 
+```
+ls lista plików
+cd idź do
+Rscript a.r odpalenie skryptu
+cat a.txt  podgląd pliku (tekst)
+rm a.txt usuń
+cp origin end  kopiuj
+mkdir a twórz folder
+find a  szukaj
+ps -U login pokaż procesy
+pwd pobierz ścieżkę
+
+```
+
+
+
+
