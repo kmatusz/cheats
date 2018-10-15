@@ -1,6 +1,6 @@
 # cheats
 #### Ogólne R
-ctrl+shift+a - reindent
+```ctrl+shift+a - reindent
 unlist(c) spłaszczanie
 as.character(levels(df$V1))[df$V1]  zmiana factora na liczbę/character
 plyr::rbind.fill()
@@ -21,9 +21,10 @@ df$na_count <- apply(df, 1, function(x) sum(is.na(x)))
 
 Porównanie tabel 
 all.equal(df1, df2)
+```
 
 #### Regexy, stringi
-https://regexr.com/
+```https://regexr.com/
 . każdy poza nową linią
 [a-z], [A-Z], [0-9] każdy pomiędzy
 {5} dokładnie 5
@@ -41,11 +42,11 @@ str_replace('a', '') zamień w każdym stringu
 
 str_sub(x, 3, 3) Wybierz trzecią literę
 str_sub(x, 2, -2)
-
+```
 
 #### Shiny
-każde render* w serverze odpowiada za jeden *output w ui
+```każde render* w serverze odpowiada za jeden *output w ui
 do keszowania trzeba użyć reactive({}) i później używać re()
 Do przycisków observeEvent(input$guzik, {wykonaj})
 Żeby nie ładowało się za każdą zmianą parametrów tylko po naciśnięciu przycisku użyć isolate
-
+```
