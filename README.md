@@ -85,6 +85,9 @@ setwd('')
 do keszowania trzeba użyć reactive({}) i później używać re()
 Do przycisków observeEvent(input$guzik, {wykonaj})
 Żeby nie ładowało się za każdą zmianą parametrów tylko po naciśnięciu przycisku użyć isolate
+source("global.R", source = TRUE) - na początku
+useShinyjs(), onclick()- do fancy akcji z javascriptem
+
 ```
 
 #### Linux 
@@ -99,7 +102,7 @@ mkdir a twórz folder
 find a  szukaj
 ps -U login pokaż procesy
 pwd pobierz ścieżkę
-
+top pokaż aktywne procesy
 ```
 
 #### ggplot 
