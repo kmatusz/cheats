@@ -105,10 +105,11 @@ pwd pobierz ścieżkę
 top pokaż aktywne procesy
 ```
 
-#### ggplot 
+#### wykresy
 ```
 quote() do notacji naukowej
 options(scipen=999) do wyłączenia naukowej
+cowplot do rysowania obok siebie
 ```
 
 
