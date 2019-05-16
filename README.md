@@ -1,5 +1,28 @@
 # cheats
 
+#### GIT
+```
+git branch -d branch_name  -usunięcie lokalnego brancha
+git branch -D branch_name  -usunięcie lokalnego brancha kiedy nie jest zmerge'owany (używać w wyjątkowych przypadkach)
+git push origin --delete <branch_name> -usunięcie brancha na serwerze
+git branch - lista wszystkich branchy
+git branch <branch_name> utworzenie brancha
+git checkout -b <branch_name> utworzenie brancha i przełączenie
+git pull
+git checkout <commit-hash> przeskoczenie do konkretnego commita 
+git reset --soft HEAD~1 usunięcie obecnego commita (przed pushem)
+
+
+
+Cofnięcie do konkretnego commita (używać w ostateczności):
+git reset --hard cedc856
+git push --force origin master
+
+
+```
+
+
+
 #### Linki
 ```
 http://r4ds.had.co.nz/tidy-data.html#spreading-and-gathering  spread, gather
