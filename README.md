@@ -21,7 +21,15 @@ git push --force origin master
 
 ```
 
+#### VIM
+```
+a - wejście w tryb edycji
+esc - wyjście z trybu edycji
+:q - wyjście
+:wq - zapisz i wyjdź
 
+
+```
 
 #### Linki
 ```
