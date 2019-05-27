@@ -143,4 +143,23 @@ options(scipen=999) do wyłączenia naukowej
 cowplot do rysowania obok siebie
 ```
 
+#### SQL sas
 
+```
+proc sql;
+   insert into sql.newcountries
+      set name='Bangladesh',
+          capital='Dhaka',
+          population=126391060
+      set name='Japan',
+          capital='Tokyo',
+          population=126352003;
+          
+  
+PROC SQL;
+UPDATE 
+a.foo
+SET START = "8:30,9:30,11:00"
+WHERE JOB=10;
+
+```
