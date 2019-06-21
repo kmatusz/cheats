@@ -11,7 +11,7 @@ git checkout -b <branch_name> utworzenie brancha i przełączenie
 git pull
 git checkout <commit-hash> przeskoczenie do konkretnego commita 
 git reset --soft HEAD~1 usunięcie obecnego commita (przed pushem)
-
+git diff --name-only branch_name pokazanie, które pliki zostały zmienione 
 
 
 Cofnięcie do konkretnego commita (używać w ostateczności):
