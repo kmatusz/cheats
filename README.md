@@ -12,7 +12,7 @@ git pull
 git checkout <commit-hash> przeskoczenie do konkretnego commita 
 git reset --soft HEAD~1 usunięcie obecnego commita (przed pushem)
 git diff --name-only branch_name pokazanie, które pliki zostały zmienione 
-
+git add -u dodanie wielu plików do usunięcia
 
 Cofnięcie do konkretnego commita (używać w ostateczności):
 git reset --hard cedc856
