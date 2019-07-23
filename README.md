@@ -52,6 +52,7 @@ break
 next - przejście od razu do kolejnej iteracji
 exists('a') czy istnieje obiekt a?
 rm(list=ls())
+format - funkcja do formatowania liczb, np separator dziesiętny itd
 
 Długość df to nrow a nie length
 zliczenie nanów w wierszu:
