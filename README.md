@@ -31,6 +31,7 @@ esc - wyjście z trybu edycji
 
 ```
 
+
 #### Linki
 ```
 http://r4ds.had.co.nz/tidy-data.html#spreading-and-gathering  spread, gather
@@ -135,6 +136,11 @@ find a  szukaj
 ps -U login pokaż procesy
 pwd pobierz ścieżkę
 top pokaż aktywne procesy
+
+crontab -e edytuj crona
+cd /working_dir; Rscript /srv/script.R > /srv/log.txt 2>&1 uruchom skrypt w working_dir i odłóż log
+
+
 ```
 
 #### wykresy
