@@ -1,4 +1,4 @@
-#### Names and values
+#### 2. Names and values
 
 x <- c(1,2,3)
 y <- x
