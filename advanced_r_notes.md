@@ -24,3 +24,6 @@ e2$a <- 4
 e1$a daje 4
 
 garbage collector jest automatyczny - kiedy robimy rm(a) to obiekt zostaje w pamięci ale nie jest przypisany do niczego. Takie obiekty usuwa gc()
+
+
+15 min
