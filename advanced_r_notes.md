@@ -59,5 +59,5 @@ x <-setNames(1:3, "a", "b", "c")
 
 Zwykły wektor ma NULL dimensions, można stworzyć 1-wymiarowy w odwrotną stronę niż normalnie
 
-
+10 min
 
