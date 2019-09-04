@@ -27,3 +27,37 @@ garbage collector jest automatyczny - kiedy robimy rm(a) to obiekt zostaje w pam
 
 
 15 min
+
+#### 3. Vectors
+
+NULL - generic zero length vector
+
+typeof(a) - typ wektora
+
+NA zawsze daje NA z wyjątkami:
+NA^0 = 1
+NA | TRUE = TRUE
+NA & FALSE = FALSE
+
+Coercion rules :
+character → double → integer → logical
+TRUE -> 1
+
+##### Attributes
+
+
+attr(a, "x) <- "cos" Zapisz cos jako atrybut obiektu a o nazwie x
+attr(a, "x") - pokaż atrybut x obiektu a 
+attributes(a) - pokaż wszystkie atrybuty 
+a <- structure(content, "attr1"=3)
+
+Atrybuty są usuwane przez większość funkcji. Dwa wyjątki to names i dim
+x <- 1:3
+names(x) <- c("a", "b", "c")
+ekwiwalent do:
+x <-setNames(1:3, "a", "b", "c")
+
+Zwykły wektor ma NULL dimensions, można stworzyć 1-wymiarowy w odwrotną stronę niż normalnie
+
+
+
