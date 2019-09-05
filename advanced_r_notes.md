@@ -49,7 +49,7 @@ TRUE -> 1
 attr(a, "x) <- "cos" Zapisz cos jako atrybut obiektu a o nazwie x
 attr(a, "x") - pokaż atrybut x obiektu a 
 attributes(a) - pokaż wszystkie atrybuty 
-a <- structure(content, "attr1"=3)
+a <- structure(content, "attr1"=3) - dodaj atrybut do zmiennej
 
 Atrybuty są usuwane przez większość funkcji. Dwa wyjątki to names i dim
 x <- 1:3
@@ -60,4 +60,19 @@ x <-setNames(1:3, "a", "b", "c")
 Zwykły wektor ma NULL dimensions, można stworzyć 1-wymiarowy w odwrotną stronę niż normalnie
 
 10 min
+
+##### Factors
+
+##### Dates 
+
+Typ date ma class="Date" i type double
+
+Pod spodem - liczba dni od 1970-01-01
+
+POSIXct - datetime, liczba sekund od 1970-01-01
+
+Difftime - różnica czasu, mają atrybut "unit" i wartość liczbową
+
+format(date, "%d.%m.%y") - formatowanie do stringa
+
 
