@@ -76,3 +76,28 @@ Difftime - różnica czasu, mają atrybut "unit" i wartość liczbową
 format(date, "%d.%m.%y") - formatowanie do stringa
 
 
+#### 9. Functionals
+Funkcjonał - bierze funkcje jako input i zwraca wektor rzeczy
+
+purrr:::map - zwraca listę
+Data frame zamienia się w listę kolumn
+
+sapply - stara się uprościć wynik, przez co nie wiadomo co zwróci. Jeżeli już base to lepiej używać vapply
+x <- list("a", "b", "c", "name" = list("10"))
+purr::map(x,3) - daje "c"
+purr::map(x, "name") - daje list("10")
+
+x <- c(1:3)
+purrr::walk - wykonaj każdą funkcję ale niczego nie zwracaj
+
+
+
+
+
+
+
+
+
+
+
+
