@@ -169,4 +169,9 @@ a.foo
 SET START = "8:30,9:30,11:00"
 WHERE JOB=10;
 
+proc contents data=table_name;
+run; - podejrzenie struktury tabeli
+
+
+
 ```
