@@ -35,6 +35,14 @@ esc - wyjście z trybu edycji
 #### Linki
 ```
 http://r4ds.had.co.nz/tidy-data.html#spreading-and-gathering  spread, gather
+https://appsilon.com/r-studio-shortcuts-and-tips/
+https://edgarruiz.shinyapps.io/db-dashboard/ - interaktywny dashboard
+https://github.com/ropensci/assertr - testowanie poprawności danych
+https://kellobri.github.io/shiny-prod-book - shiny in production - workshop notes
+http://swcarpentry.github.io/good-enough-practices-in-scientific-computing/
+
+https://www.toptal.com/python/python-design-patterns
+https://python-textbok.readthedocs.io/en/1.0/Object_Oriented_Programming.html
 
 
 ```
@@ -120,6 +128,8 @@ Do przycisków observeEvent(input$guzik, {wykonaj})
 Żeby nie ładowało się za każdą zmianą parametrów tylko po naciśnięciu przycisku użyć isolate
 source("global.R", source = TRUE) - na początku
 useShinyjs(), onclick()- do fancy akcji z javascriptem
+
+https://html-online.com/editor/ - edytor html
 
 ```
 
