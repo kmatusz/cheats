@@ -160,6 +160,15 @@ options(scipen=999) do wyłączenia naukowej
 cowplot do rysowania obok siebie
 ```
 
+#### Excel
+```
+pe <- function(x,row.names=FALSE,col.names=TRUE,...) {
+  write.table(x,"clipboard",sep="\t",row.names=row.names,col.names=col.names,...)
+}
+
+pe(my.df)
+````
+
 #### SQL sas
 
 ```
