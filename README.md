@@ -208,6 +208,17 @@ proc compare base=class compare=classfit;
 run;
 ```
 
+Eksport do excela:
+```
+proc export 
+		  data=data_out
+		  dbms=xlsx 
+		  outfile="/file/name.xlsx" 
+		  replace;
+		run;
+```
+
+
 
 Oracle
 
