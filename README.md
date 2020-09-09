@@ -190,7 +190,29 @@ WHERE JOB=10;
 
 proc contents data=table_name;
 run; - podejrzenie struktury tabeli
+```
+
+Proc compare:
+```
+https://www.sascrunch.com/proc-compare.html
+
+Standardowe:
+proc compare
+ base = sashelp.class
+ compare = sashelp.classfit;
+run;
+
+ze zmienną id (muszą być posortowane): 
+proc compare base=class compare=classfit;
+ id name;
+run;
+```
 
 
+Oracle
 
 ```
+select * from user_tab_partitions where table_name = 'table_name'; - sprawdzenie partycji
+add_months(sysdate, -60) - data 5 lat do tyłu
+```
+
