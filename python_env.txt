@@ -24,3 +24,4 @@ Rozszerzenia notebooka:
 conda install nodejs
 
 jupyter labextension install @jupyterlab/toc
+jupyter lab build
