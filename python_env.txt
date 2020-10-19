@@ -1,0 +1,24 @@
+WSL2 -instrukcja:
+https://docs.microsoft.com/en-us/windows/wsl/install-win10
+
+Po uruchomieniu:
+sudo apt update
+sudo apt-get dist-upgrade
+
+Pobrać miniconda:
+https://docs.conda.io/en/latest/miniconda.html#installing
+
+Foldery z windowsa są w /mnt
+
+Uruchomić instalator:
+./Miniconda...
+
+Zainstalować paczki:
+conda install jupyterlab numpy pandas scikit-learn matplotlib seaborn
+conda install -c anaconda beautifulsoup4 sqlite
+conda install tensorflow
+
+Rozszerzenia notebooka:
+conda install nodejs
+
+jupyter labextension install @jupyterlab/toc
