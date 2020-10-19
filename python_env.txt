@@ -1,3 +1,5 @@
+Uruchomienie środowiska do pracy z pythonem krok po kroku
+
 WSL2 -instrukcja:
 https://docs.microsoft.com/en-us/windows/wsl/install-win10
 
