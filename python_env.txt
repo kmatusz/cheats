@@ -19,7 +19,9 @@ Zainstalować paczki:
 conda install jupyterlab numpy pandas scikit-learn matplotlib seaborn
 conda install -c anaconda beautifulsoup4 sqlite
 conda install tensorflow
-
+conda install nltk
+pip install p2j - do konwersji pythona do notebooka
+ 
 Rozszerzenia notebooka:
 conda install nodejs
 
