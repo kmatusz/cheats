@@ -112,6 +112,34 @@ str_replace('a', '') zamień w każdym stringu
 
 str_sub(x, 3, 3) Wybierz trzecią literę
 str_sub(x, 2, -2)
+
+
+\d - a digit
+[A-Za-z0-9] - match characters without special signs
+[^abc] - match all characters except a,b,c
+. - any character
+\ - escape special sign
+^ - starts line with following character
+$ - ends line with previous character
+^abc$ - starts and ends with 
+* - match 0 or more of previous thing
++ - match 1 or more of previous thing
+\s - match any whitespace
+| - alternative e.g. [pre|post] - match one or the second
+{2} - 2 repetitions
+{2,} - 2 or more repetitions
+(...) - match group
+
+# Examples python:
+import re
+sentence = "We bought our  Golden Retriever, Snuggles, for $30 on 1/1/2015 at 1017 Main St. where they   have many dogs."
+re.search(r"the", sentence) is not None # check if the string contains regex
+re.search(r"the", sentence).group() # find first occurence of word
+re.findall(r"abc", a) # find all occurences of the word
+re.sub(r"abc", "9", a, count = 1) # replace first occurence of word abc with 9
+re.sub(r"abc", "9", a, count = 0) # replace all occurences of word abc with 9
+re.findall(r'[A-Za-z]{1,3}\w', a) # find all words with from 1 to 3 characters
+
 ```
 #### Pliki
 ```
