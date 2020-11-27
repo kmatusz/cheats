@@ -253,5 +253,9 @@ Oracle
 ```
 select * from user_tab_partitions where table_name = 'table_name'; - sprawdzenie partycji
 add_months(sysdate, -60) - data 5 lat do tyłu
+select * from all_tables where owner = 'SCHEMA' order by table_name; - wybranie tabel ze schematu/ownera
+select * from a.b where col like 'A%' - zaczyna się od A
+select * from a.b where col like 'A_' - zaczyna się od A i dokładnie 1 litera
+
 ```
 
