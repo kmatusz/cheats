@@ -257,5 +257,8 @@ select * from all_tables where owner = 'SCHEMA' order by table_name; - wybranie 
 select * from a.b where col like 'A%' - zaczyna się od A
 select * from a.b where col like 'A_' - zaczyna się od A i dokładnie 1 litera
 
+alter table table_name Rename column old_column_name TO new_column_name; - zmiana nazwy kolumny
+
+
 ```
 
