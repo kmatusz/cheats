@@ -27,3 +27,17 @@ conda install nodejs
 
 jupyter labextension install @jupyterlab/toc
 jupyter lab build
+
+
+Virtual environments:
+
+conda create --name aaa   - utworzenie pustego środowiska
+conda activate aaa - aktywowanie środowiska 
+pip install numpy - instalacja paczek
+pip install numpy==3.1
+conda list - pokazanie wszystkich paczek z aaa
+conda deactivate
+pip install -r requirements.txt 
+
+
+
